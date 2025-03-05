@@ -172,7 +172,7 @@ body{
       .kambucha-gallery {
         display: flex;
         width: max-content;
-        animation: scrollGallery 45s linear infinite; 
+        animation: scrollGallery 47s linear infinite; 
       }
 
       .kambucha-gallery img {
@@ -181,12 +181,19 @@ body{
         margin-right: 20px;
       }
 
+      .kambucha-gallery::after {
+        content: "";
+        width: 25rem;
+        height: auto;
+        flex-shrink: 0;
+      }      
+
       @keyframes scrollGallery {
         0% {
           transform: translateX(0);
         }
         100% {
-          transform: translateX(-80%); 
+          transform: translateX(-72%); 
         }
       }
       
