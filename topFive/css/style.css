@@ -68,6 +68,7 @@ body{
         word-spacing: 0;
     }
 
+    /* a friend told me about it and showed me how to do it, but they never told me where they got it from T_T */
     .gif-button {
         transition: transform 0.3s ease, border-color 0.3s ease;
     }
@@ -86,6 +87,7 @@ body{
 
 
                  /* LISTS & COLUMNS */
+    /* used code from this website to get my columns!!: https://www.w3schools.com/howto/howto_js_image_grid.asp  */
 
     .top-five h1{ 
         font-family: 'Madimi One', static;
@@ -147,6 +149,9 @@ body{
 
       /* KAMBUCHA GALLERY PICTURES */
 
+      /* used code from this website to get the gallery to scroll!: https://www.html.am/html-codes/marquees/css-scrolling-image.cfm#:~:text=To%20make%20a%20scrolling%20image,so%20the%20image%20scrolls%20too. */
+
+
       .gallery-header{
         font-family: 'Madimi One', static;
         font-size: 35px; 
@@ -176,14 +181,12 @@ body{
         margin-right: 20px;
       }
 
-      /* used code from this website to get the gallery to scroll!: https://www.html.am/html-codes/marquees/css-scrolling-image.cfm#:~:text=To%20make%20a%20scrolling%20image,so%20the%20image%20scrolls%20too. */
-
       @keyframes scrollGallery {
         0% {
           transform: translateX(0);
         }
         100% {
-          transform: translateX(-55%); 
+          transform: translateX(-80%); 
         }
       }
       
