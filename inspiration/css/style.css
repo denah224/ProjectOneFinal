@@ -1,0 +1,180 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital");
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One"); 
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #d4e2ff;
+    
+    }
+    .horizontal-line {
+        width: 100%;       
+        height: 8px;       
+        background-color: #7789CB;  
+        margin: 20px 0;    
+    }
+    
+    .dashed-line {
+        width: 100%;
+        height: 10px;
+        border-top: 8px dashed #FFEE8C;
+        margin: 20px 0;
+    }
+
+    .dashed-bottom {
+        width: 100%;
+        height: 12px;
+        border-top: 8px dashed #7789CB;
+        margin: 20px 0;
+    }
+
+    /* NAVIGATION SECTION */
+    .navbar {
+        display: flex;
+        font-weight: bold;
+        align-items: center;
+        background-color: #7789CB;
+        color: #ffffed;
+        font-size: 29px;
+        text-transform: uppercase;
+        width: 100%;
+        text-indent: 5rem; 
+    }
+
+    .no-space {
+        word-spacing: 0;
+    }
+
+    .gif-button {
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    
+    .gif-button img{
+        width: 25rem;
+        height: auto;
+    }
+
+    header a{
+        color: #fff;
+        padding: 1rem;
+        margin: 0 1rem;
+        transition: all 0.3s ease;
+    }
+
+    /* IMAGES SECTION */
+
+    .inspo-header {
+        font-family: 'Madimi One', static;
+        font-size: 40px; 
+        font-weight: bold;  
+        text-align: center;
+        margin-bottom: 20px; 
+        text-transform: uppercase;
+        text-shadow: 3px 3px #fff;
+    }
+
+    .keone-text, .uniqlo-text, .susie-text {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-family: Arial, sans-serif;
+        font-family: 'Varela Round', static;
+        font-weight: bold;
+        padding: 0px 50px;
+
+    }
+
+
+    /* KEONE MADRID IMAGES SECTION */
+    .keone-list {
+        font-family: 'Madimi One', static;
+        font-size: 25px; 
+        font-weight: bold;  
+        text-align: center;
+        margin-bottom: 20px; 
+        text-transform: uppercase;
+        text-shadow: 3px 3px #fff;
+    }
+      
+      .keone-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      
+      .keone-container img {
+        width: 35rem;
+        height: auto;
+        margin: 0 12px;
+        max-width: 100%; 
+        border: 25px solid #FFEE8C;
+        margin-bottom: 30px; 
+      }
+
+      /* UNIQLO IMAGES SECTION */
+
+      .uniqlo-list {
+        font-family: 'Madimi One', static;
+        font-size: 25px; 
+        font-weight: bold;  
+        text-align: center;
+        margin-bottom: 20px; 
+        text-transform: uppercase;
+        text-shadow: 3px 3px #fff;
+    }
+      
+      .uniqlo-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      
+      .uniqlo-container img {
+        width: 35rem;
+        height: auto;
+        margin: 0 12px;
+        max-width: 100%; 
+        border: 25px solid #FFEE8C;
+        margin-bottom: 30px; 
+      }
+
+      /* SUSIE NAILS IMAGES SECTION */
+
+      .susie-list {
+        font-family: 'Madimi One', static;
+        font-size: 25px; 
+        font-weight: bold;  
+        text-align: center;
+        margin-bottom: 20px; 
+        text-transform: uppercase;
+        text-shadow: 3px 3px #fff;
+    }
+      
+      .susie-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+      }
+      
+      .susie-container img {
+        width: 35rem;
+        height: auto;
+        margin: 0 12px;
+        max-width: 100%; 
+        border: 25px solid #FFEE8C;
+        margin-bottom: 30px; 
+      }
+      
